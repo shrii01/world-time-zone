@@ -35,7 +35,7 @@
                         <muleVersion>${muleVersion}</muleVersion>
                         <username>${username}</username>
                         <password>${password}</password>
-                        <applicationName>${applicationName}</applicationName>
+                        <applicationName>demooo</applicationName>
                         <environment>${environment}</environment>
                         <businessGroup>${businessGroup}</businessGroup>
                         <workerType>${workerType}</workerType>
