@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<http:request-config name="HTTP_Request_configuration" doc:name="HTTP Request configuration" doc:id="d1596fd0-e9fd-4364-99f8-cf402e8119a3" basePath="/api/timezone" >
-		<http:request-connection host="worldtimeapi.org" />
+		<http:request-connection host="worldtimeapi.org" port="8081"/>
 	</http:request-config>
 	<flow name="demoFlow" doc:id="cc9267c6-bbc7-4829-9845-23ba2064aa4f" >
 		<http:listener doc:name="Listener" doc:id="b1beeccd-c06a-4a28-90d8-d62bae1b785d" config-ref="HTTP_Listener_config" path="/{region}/{city}"/>
